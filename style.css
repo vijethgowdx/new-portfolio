@@ -22,6 +22,7 @@ header {
   justify-content: center;
   gap: 30px;
   margin-top: 10px;
+  flex-wrap: wrap;
 }
 
 .contact-info p i {
@@ -46,6 +47,7 @@ section {
   display: flex;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .about-content img {
@@ -67,14 +69,15 @@ section {
 
 .project-content {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
 }
 
 .project-text {
   flex: 1;
+  min-width: 250px;
 }
 
 .project-content img {
@@ -95,6 +98,7 @@ section {
   display: flex;
   gap: 20px;
   margin-top: 10px;
+  flex-wrap: wrap;
 }
 
 .activity-images img {
