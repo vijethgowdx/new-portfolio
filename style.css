@@ -63,14 +63,10 @@ section {
   margin-left: 20px;
 }
 
-.projects .project {
-  margin-bottom: 40px;
-}
-
 .project-content {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -80,9 +76,8 @@ section {
   min-width: 250px;
 }
 
-.project-content img {
+.project-image img {
   width: 300px;
-  height: auto;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -93,6 +88,7 @@ section {
   padding: 4px 10px;
   border-radius: 4px;
 }
+
 
 .activity-images {
   display: flex;
